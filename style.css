@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: rgb(227, 62, 183);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+#customLink {
+    color: black; 
+  }
+
+#customLink:visited {
+    color: gray; 
+}
+  
+#customLink:hover {
+    text-decoration: underline; 
+    color: green; 
+}
+  
